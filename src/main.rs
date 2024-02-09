@@ -15,7 +15,7 @@ fn main() {
             DefaultPlugins
                 .set(WindowPlugin {
                     primary_window: Some(Window {
-                        title: "connect4.xyz".to_string(),
+                        title: "unite4.luvnft.com".to_string(),
                         fit_canvas_to_parent: true,
                         prevent_default_event_handling: false,
                         ..default()

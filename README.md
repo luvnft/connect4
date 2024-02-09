@@ -1,8 +1,8 @@
-# Connect4.xyz
+# Unite4.luvnft.com
 
 A game inspired by chess over nostr - [jesterui](https://github.com/jesterui/jesterui).
 
-Play Connect4 over `nostr`. https://connect4.xyz
+Play Unite4 over `nostr`. https://unite4.luvnft.com
 
 Anyone is free to host this game themselves, but please dont cheat! :D I am deploying to github pages via the docs folder in this repo.
 
@@ -20,7 +20,7 @@ Ofc you have to be honest yourself but this is only really meant for playing wit
 
 ## Nostr Events Used
 
-Clients connect to relays and check for notes with the tag `connect4.xyz game_id = {}` where game_id is the id of the game, which is randomly generated and added to the URL.
+Clients connect to relays and check for notes with the tag `unite4.luvnft.com game_id = {}` where game_id is the id of the game, which is randomly generated and added to the URL.
 
 Players can share this url to invite others to play or spectate.
 

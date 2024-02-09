@@ -54,7 +54,7 @@ fn setup(mut network_stuff: ResMut<NetworkStuff>, mut game_state: ResMut<GameSta
 
     let location = web_sys::window().unwrap().location();
     let game_id = location.pathname().unwrap().to_string();
-    let tag = format!("connect4.xyz game_id = {}", game_id);
+    let tag = format!("unite4.luvnft.com game_id = {}", game_id);
     game_state.game_tag = Tag::Hashtag(tag.clone());
 
     let game_state_clone = game_state.clone();
