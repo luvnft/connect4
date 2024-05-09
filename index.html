@@ -1,4 +1,5 @@
 <!doctype html>
+import DiscordWidget from "./DiscordWidget";
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
@@ -7,14 +8,12 @@
             name="viewport"
             content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
         />
-        <title>connect4.xyz</title>
+        <title>unite4.luvnft.com</title>
         <link data-trunk rel="rust" data-wasm-opt="z" />
         <link data-trunk rel="icon" href="web_assets/favicon.ico" />
         <link data-trunk rel="copy-file" href="web_assets/manifest.json" />
         <link data-trunk rel="copy-file" href="./CNAME" />
         <link data-trunk rel="copy-dir" href="./assets/" />
-
-        <script async defer src="https://buttons.github.io/buttons.js"></script>
 
     <style>
         body,
@@ -123,17 +122,16 @@
 </head>
 
     <body>
-        <div class="github-container">
-            <a
-                class="github-button"
-                href="https://github.com/stum0/connect4xyz"
-                data-show-count="true"
-                aria-label="Star stum0/connect4xyz on GitHub"
-            ></a>
-        </div>
+        <div className="discord-container">
+            <div
+              className="discord-widget"
+              data-id="1050542523784030208"
+              data-theme="dark"
+            ></div>
+          </div>
 
         <div class="home-container">
-            <button id="homeButton">🏠</button>
+            <button id="homeButton">4️⃣</button>
         </div>
 
     <div class="gameId">
